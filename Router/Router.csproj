@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <OutputType>exe</OutputType>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NServiceBus.Router" Version="3.5.0" />
+    <PackageReference Include="NServiceBus.SqlServer" Version="4.1.3" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+</Project>
